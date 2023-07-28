@@ -1,0 +1,32 @@
+{
+  "name": "simple_diary",
+  "version": "1.0.0",
+  "description": "simple diary ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuv-Rajd/simple_diary.git"
+  },
+  "author": "Yuvaraj D",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Yuv-Rajd/simple_diary/issues"
+  },
+  "homepage": "https://github.com/Yuv-Rajd/simple_diary#readme"
+}
